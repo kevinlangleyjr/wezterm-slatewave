@@ -1,0 +1,97 @@
+# Slatewave — WezTerm color scheme
+# https://getslatewave.com
+#
+# A calm, slate-and-teal palette tuned to match the Slatewave theme family
+# (VSCode, Obsidian, oh-my-posh, Ghostty, iTerm2, Alacritty). ANSI mappings
+# mirror the VSCode theme so terminal output stays visually aligned across
+# editor and terminal.
+
+[metadata]
+name = "Slatewave"
+author = "Kevin Langley Jr"
+origin_url = "https://github.com/kevinlangleyjr/wezterm-slatewave"
+
+[colors]
+foreground = "#e2e8f0"
+background = "#282c34"
+
+# Teal cursor over slate bg, mirroring editor.cursorForeground in vscode-slatewave
+cursor_bg     = "#5eead4"
+cursor_fg     = "#282c34"
+cursor_border = "#5eead4"
+
+# Amber while composing dead keys — readable against the slate bg
+compose_cursor = "#fbbf24"
+
+selection_fg = "#e2e8f0"
+selection_bg = "#334155"
+
+# Muted slate thumb, chrome split — mirrors the VSCode activity bar edge
+scrollbar_thumb = "#475569"
+split           = "#21252b"
+
+# Normal — mirrors terminal.ansi* in vscode-slatewave
+ansi = [
+  "#1e293b",  # black   — slate-800
+  "#fb7185",  # red     — rose-400
+  "#5eead4",  # green   — teal-300
+  "#b45309",  # yellow  — amber-700
+  "#38bdf8",  # blue    — sky-400
+  "#b388ff",  # magenta
+  "#0e7490",  # cyan    — cyan-700
+  "#e2e8f0",  # white   — slate-200
+]
+
+# Bright — mirrors terminal.ansiBright* in vscode-slatewave
+brights = [
+  "#475569",  # bright black   — slate-600
+  "#ef5350",  # bright red
+  "#99f6e4",  # bright green   — teal-200
+  "#fbbf24",  # bright yellow  — amber-400
+  "#7dd3fc",  # bright blue    — sky-300
+  "#c4b5fd",  # bright magenta — violet-300
+  "#67e8f9",  # bright cyan    — cyan-300
+  "#f1f5f9",  # bright white   — slate-100
+]
+
+# Copy mode — focused match in teal (mirrors cursor), unfocused in sky.
+# Same focus/unfocus split vscode uses for findMatch / findMatchHighlight.
+copy_mode_active_highlight_bg   = "#5eead4"
+copy_mode_active_highlight_fg   = "#282c34"
+copy_mode_inactive_highlight_bg = "#38bdf8"
+copy_mode_inactive_highlight_fg = "#282c34"
+
+# Quick-select hints — amber leader on amber-700 tail, matching Alacritty's
+# hints.start / hints.end split from alacritty-slatewave.
+quick_select_label_bg = "#fbbf24"
+quick_select_label_fg = "#282c34"
+quick_select_match_bg = "#b45309"
+quick_select_match_fg = "#e2e8f0"
+
+[colors.tab_bar]
+# Chrome matching the VSCode activity bar
+background        = "#21252b"
+inactive_tab_edge = "#334155"
+
+[colors.tab_bar.active_tab]
+bg_color  = "#282c34"
+fg_color  = "#e2e8f0"
+intensity = "Bold"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#21252b"
+fg_color = "#cbd5e1"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#334155"
+fg_color = "#e2e8f0"
+italic   = false
+
+[colors.tab_bar.new_tab]
+bg_color = "#21252b"
+fg_color = "#cbd5e1"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#334155"
+fg_color = "#5eead4"
+italic   = false
