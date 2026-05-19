@@ -21,7 +21,7 @@ cursor_fg     = "#282c34"
 cursor_border = "#5eead4"
 
 # Amber while composing dead keys — readable against the slate bg
-compose_cursor = "#fbbf24"
+compose_cursor = "#fcd34d"
 
 selection_fg = "#e2e8f0"
 selection_bg = "#334155"
@@ -35,7 +35,7 @@ ansi = [
   "#1e293b",  # black   — slate-800
   "#fb7185",  # red     — rose-400
   "#5eead4",  # green   — teal-300
-  "#b45309",  # yellow  — amber-700
+  "#f59e0b",  # yellow  — amber-500
   "#38bdf8",  # blue    — sky-400
   "#b388ff",  # magenta
   "#0e7490",  # cyan    — cyan-700
@@ -47,7 +47,7 @@ brights = [
   "#475569",  # bright black   — slate-600
   "#ef5350",  # bright red
   "#99f6e4",  # bright green   — teal-200
-  "#fbbf24",  # bright yellow  — amber-400
+  "#fcd34d",  # bright yellow  — amber-300
   "#7dd3fc",  # bright blue    — sky-300
   "#c4b5fd",  # bright magenta — violet-300
   "#67e8f9",  # bright cyan    — cyan-300
@@ -63,9 +63,9 @@ copy_mode_inactive_highlight_fg = "#282c34"
 
 # Quick-select hints — amber leader on amber-700 tail, matching Alacritty's
 # hints.start / hints.end split from alacritty-slatewave.
-quick_select_label_bg = "#fbbf24"
+quick_select_label_bg = "#fcd34d"
 quick_select_label_fg = "#282c34"
-quick_select_match_bg = "#b45309"
+quick_select_match_bg = "#f59e0b"
 quick_select_match_fg = "#e2e8f0"
 
 [colors.tab_bar]

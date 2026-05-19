@@ -18,7 +18,7 @@ return {
   cursor_bg      = '#5eead4',
   cursor_fg      = '#282c34',
   cursor_border  = '#5eead4',
-  compose_cursor = '#fbbf24',
+  compose_cursor = '#fcd34d',
 
   selection_fg = '#e2e8f0',
   selection_bg = '#334155',
@@ -31,7 +31,7 @@ return {
     '#1e293b', -- black   slate-800
     '#fb7185', -- red     rose-400
     '#5eead4', -- green   teal-300
-    '#b45309', -- yellow  amber-700
+    '#f59e0b', -- yellow  amber-500
     '#38bdf8', -- blue    sky-400
     '#b388ff', -- magenta
     '#0e7490', -- cyan    cyan-700
@@ -43,7 +43,7 @@ return {
     '#475569', -- slate-600
     '#ef5350',
     '#99f6e4', -- teal-200
-    '#fbbf24', -- amber-400
+    '#fcd34d', -- amber-300
     '#7dd3fc', -- sky-300
     '#c4b5fd', -- violet-300
     '#67e8f9', -- cyan-300
@@ -55,9 +55,9 @@ return {
   copy_mode_inactive_highlight_bg = { Color = '#38bdf8' },
   copy_mode_inactive_highlight_fg = { Color = '#282c34' },
 
-  quick_select_label_bg = { Color = '#fbbf24' },
+  quick_select_label_bg = { Color = '#fcd34d' },
   quick_select_label_fg = { Color = '#282c34' },
-  quick_select_match_bg = { Color = '#b45309' },
+  quick_select_match_bg = { Color = '#f59e0b' },
   quick_select_match_fg = { Color = '#e2e8f0' },
 
   tab_bar = {
